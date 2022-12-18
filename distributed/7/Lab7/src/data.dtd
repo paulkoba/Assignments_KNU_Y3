@@ -1,0 +1,5 @@
+<!ELEMENT Storage (NewsCategory*)>
+        <!ELEMENT NewsCategory (Article*)>
+        <!ELEMENT Article (#PCDATA)>
+        <!ATTLIST NewsCategory id CDATA #REQUIRED name CDATA #REQUIRED>
+        <!ATTLIST Article id CDATA #REQUIRED categoryID CDATA #REQUIRED name CDATA #REQUIRED>
